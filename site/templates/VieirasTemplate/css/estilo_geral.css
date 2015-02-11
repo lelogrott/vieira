@@ -1,0 +1,109 @@
+/**** Fonte  *****/
+
+@import url(http://fonts.googleapis.com/css?family=Ubuntu:300,400,300italic,400italic);
+@import url(http://fonts.googleapis.com/css?family=Radley:400,400italic);
+@import url(http://fonts.googleapis.com/css?family=Alegreya+Sans:400,500italic);
+@import url(http://fonts.googleapis.com/css?family=Marvel:400,400italic);
+
+a,p,h1,h2,h3,h4,h5,h6,spam,body,div,ul,li,tr,td{
+font-family: 'Ubuntu', sans-serif;
+}
+
+a{
+	color:#808080;
+	text-decoration:none;
+	font-weight:bold;
+}
+
+a:hover{
+	text-decoration:underline;
+}
+/**** Fonte *****/
+
+
+/**** estilos genericos   *****/
+.clearer{
+	clear:both;
+}
+
+.borda{
+	border: 0.5em 0.5em 0.5em 0.5em;
+	border-color:black;
+	border-style:dashed;
+}
+
+html{
+	margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:0px;
+	padding-top:0px; padding-right:0px; padding-bottom:0px; padding-left:0px;
+}
+
+body{
+	margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:0px;
+	padding-top:0px; padding-right:0px; padding-bottom:0px; padding-left:0px;
+	background-image:url('');
+	background-color:#FFFFFF;
+	background-repeat: no-repeat;
+	background-position: right bottom;
+	min-height:100%;
+}
+
+/**** estilos genericos   *****/
+
+
+/**** Modulos da barra esquerda ***/
+	/*** static main_left class ***/
+	.main_left{
+		float: left;
+		height:100%;
+		width: 25%;
+		
+	}
+	/*** static main_header class ***/
+	
+	/*** Modulo menu ***/
+	div.modmenu{
+		float: center;
+		top:0px;
+		margin-top:2%; margin-right:0px; margin-bottom:0px; margin-left:0px;
+		padding-top:0%; padding-right:0%; padding-bottom:0px; padding-left:11.5%;
+		opacity:1;
+	}
+	.modmenu h3{
+		font-family: 'Marvel', sans-serif !important;
+		font-size: 14px;
+	}
+	/*** Modulo menu ***/
+
+/**** Modulos do cabecalho ***/
+
+/**** Corpo principal ***/
+
+	.modcorpo{
+		float:auto;
+		margin-left: 25%; 
+	}
+	.corpo h2{
+			color:#CC0000;
+			font-weight:normal;
+			font-size:24pt;
+			padding-bottom:5px;
+			padding-top:10px;
+			margin-bottom:10px;
+	}
+	
+	/*.corpo h2:first-letter{
+		color:#FFB600;
+	}*/
+
+/**** Corpo principal ***/
+
+/**** Modulos de footer ***/
+	.footer_main{
+		float: center;
+		text-align:left;
+	}
+	.footer{
+		float: center;
+		text-align:center;
+	}
+/**** Modulos de footer ***/

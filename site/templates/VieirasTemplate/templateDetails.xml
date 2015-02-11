@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla!3.0//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/2.5/template-install.dtd">
+<extension version="3.0" type="template" client="site">
+	<name>VieirasTemplate</name>
+	<version>1.0</version>
+	<creationDate>11/02/2015</creationDate>
+	<author>Aurelio Grott Neto</author>
+	<authorEmail>grott@itsalldata.com.br</authorEmail>
+	<copyright>Um trabalho Evolutt.com</copyright>
+	<description>Tema desenvolvido originalmente para o site da familia Vieira</description>
+	<files>
+		<filename>favicon.ico</filename>
+		<filename>index.php</filename>
+		<filename>wireframe.png</filename>
+		<filename>templateDetails.xml</filename>
+		<folder>css</folder>
+		<folder>html</folder>
+		<folder>images</folder>
+		<folder>script</folder>
+	</files>
+	<positions>
+		<position>mainLeft</position>
+		<position>leftHeader</position>
+		<position>menu</position>
+		<position>corpo</position>
+		<position>footer_main</position>
+		<position>footer</position>	
+	</positions>
+	<config>
+		<fields name="params">
+			<fieldset label="Config"  name="Configuracoes">
+				<field name="logo" class="" type="media" default="templates/images/logo.png"
+					label="Logotipo:" description="Escolha o logotipo do seu site:">
+				</field>
+				<field name="background-image" class="" type="media" default="templates/images/logo.png"
+					label="Imagem de fundo" description="Escolha a imagem de fundo do seu site:">
+				</field>
+			</fieldset>
+		</fields>
+	</config>
+</extension>
