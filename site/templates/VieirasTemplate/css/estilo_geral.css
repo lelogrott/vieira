@@ -33,18 +33,12 @@ a:hover{
 }
 
 html{
-	margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:0px;
-	padding-top:0px; padding-right:0px; padding-bottom:0px; padding-left:0px;
+	height:100%;
 }
 
 body{
-	margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:0px;
-	padding-top:0px; padding-right:0px; padding-bottom:0px; padding-left:0px;
-	background-image:url('');
-	background-color:#FFFFFF;
-	background-repeat: no-repeat;
-	background-position: right bottom;
-	min-height:100%;
+	background-color:rgb(230,230,230);
+	height:100%;
 }
 
 /**** estilos genericos   *****/
@@ -54,9 +48,11 @@ body{
 	/*** static main_left class ***/
 	.main_left{
 		float: left;
-		height:100%;
+		height:auto;
+		min-height:90%;
 		width: 25%;
-		
+		border-color:rgb(151,0,0)!important;
+		border-right-style: solid !important; 
 	}
 	/*** static main_header class ***/
 	
@@ -80,7 +76,8 @@ body{
 
 	.modcorpo{
 		float:auto;
-		margin-left: 25%; 
+		margin-left: 25%;
+		min-height: 90%;  
 	}
 	.corpo h2{
 			color:#CC0000;
@@ -101,9 +98,11 @@ body{
 	.footer_main{
 		float: center;
 		text-align:left;
+		height:10%;
 	}
 	.footer{
 		float: center;
 		text-align:center;
+		height:10%;
 	}
 /**** Modulos de footer ***/
