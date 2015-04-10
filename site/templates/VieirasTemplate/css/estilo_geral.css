@@ -50,17 +50,27 @@ body{
 		float: left;
 		height:auto;
 		min-height:90%;
-		width: 25%;
-		border-color:rgb(151,0,0)!important;
-		border-right-style: solid !important; 
+		width: 37%;
+		/***border-color:black!important;
+		border-right-style: solid !important;***/ 
+        background-image:url("barra.png");
+        background-repeat: no-repeat;
+        background-position: right center;
+        background-size: auto 100%;
+        position: relative;
 	}
 	/*** static main_header class ***/
-	
+	.left_header{
+        left: 50%;
+        margin-left: -90px; /* A metade de sua largura. */
+        position: relative;
+        width: 200px; /* O valor que você desejar. */
+    }
 	/*** Modulo menu ***/
 	div.modmenu{
 		float: center;
 		top:0px;
-		margin-top:2%; margin-right:0px; margin-bottom:0px; margin-left:0px;
+		margin-top:11.75%; margin-right:0px; margin-bottom:0px; margin-left:0px;
 		padding-top:0%; padding-right:0%; padding-bottom:0px; padding-left:11.5%;
 		opacity:1;
 	}
@@ -76,7 +86,7 @@ body{
 
 	.modcorpo{
 		float:auto;
-		margin-left: 25%;
+		margin-left: 37%;
 		min-height: 90%;  
 	}
 	.corpo h2{
@@ -86,6 +96,30 @@ body{
 			padding-bottom:5px;
 			padding-top:10px;
 			margin-bottom:10px;
+	}
+	.imgOne{
+		float:left;
+		min-height: 20%;
+		min-width: 34.6%;
+		margin-top:6.9%;
+		margin-left:5.4%;
+		margin-right:30%;
+	}
+	
+	.imgTwo{
+		min-width: 20.77%;
+		min-height: 30%;
+		margin-left:73.66%;
+		margin-right: 6.23%;
+		margin-top:6.9%;
+	}
+	
+	.imgThree{
+		min-width: 20.77%;
+		min-height: 30%;
+		margin-left:73.66%;
+		margin-right: 6.23%;
+		margin-top:6.9%;
 	}
 	
 	/*.corpo h2:first-letter{

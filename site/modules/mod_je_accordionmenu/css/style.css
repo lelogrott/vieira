@@ -12,6 +12,7 @@
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
+  margin-left: -4%;
 }
 .je_acc { width: 100%; }
 .je_acc li { margin:0!important;}

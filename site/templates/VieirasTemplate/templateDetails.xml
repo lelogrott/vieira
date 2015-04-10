@@ -23,6 +23,12 @@
 		<position>leftHeader</position>
 		<position>menu</position>
 		<position>corpo</position>
+		<position>img1</position>
+		<position>img2</position>
+		<position>img3</position>
+		<position>img4</position>
+		<position>img5</position>
+		<position>img6</position>
 		<position>footer_main</position>
 		<position>footer</position>	
 	</positions>

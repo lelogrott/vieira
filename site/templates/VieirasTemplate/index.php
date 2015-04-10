@@ -49,37 +49,74 @@ else
 <body>
 <!-- Adiciona lateral esquerda -->
 <?php if($this->countModules('mainLeft')) : ?>
-	<div class="main_left borda">
+	<div class="main_left">
 		<jdoc:include type="modules" name="mainLeft" style="xhtml"/>
 		<div class="clearer"></div>
 		<!-- Adiciona header da esquerda -->
 		<?php if($this->countModules('leftHeader')) : ?>
-			<div class="left_header borda">
+			<div class="left_header">
 				<jdoc:include type="modules" name="leftHeader" style="xhtml"/>
 		<?php endif; ?>
 			</div>
 			<div class="clearer"></div>
 		<!-- Adiciona menu na esquerda -->
 		<?php if($this->countModules('menu')) : ?>
-			<div class="modmenu borda">
+			<div class="modmenu">
 				<jdoc:include type="modules" name="menu" style="xhtml" />
 		<?php endif; ?>
 			</div>
 		<div class="clearer"></div>
 <?php endif; ?>
 	</div>
+<!-- Adiciona corpo principal e subelementos-->
 <?php if ($this->countModules('corpo')) : ?>
-	<div class="modcorpo borda">
+	<div class="modcorpo">
 		<jdoc:include type="modules" name="corpo" style="xhtml" />
+		<?php if ($this->countModules('img1')) : ?>
+			<div class="imgOne borda">
+				<jdoc:include type="modules" name="img1" style="xhtml" />
+		<?php endif; ?>
+			</div>
+		<?php if ($this->countModules('img2')) : ?>
+			<div class="imgTwo borda">
+				<jdoc:include type="modules" name="img2" style="xhtml" />
+		<?php endif; ?>
+			</div>
+			
+		<div class="clearer"></div>
+
+		<?php if ($this->countModules('img3')) : ?>
+			<div class="imgThree borda">
+				<jdoc:include type="modules" name="img3" style="xhtml" />
+		<?php endif; ?>
+			</div>
+		<?php if ($this->countModules('img4')) : ?>
+			<div class="imgFour borda">
+				<jdoc:include type="modules" name="img4" style="xhtml" />
+		<?php endif; ?>
+			</div>
+		
+		<div class="clearer"></div>
+		
+		<?php if ($this->countModules('img5')) : ?>
+			<div class="imgFive borda">
+				<jdoc:include type="modules" name="img5" style="xhtml" />
+		<?php endif; ?>
+			</div>
+		<?php if ($this->countModules('img6')) : ?>
+			<div class="imgSix borda">
+				<jdoc:include type="modules" name="img6" style="xhtml" />
+		<?php endif; ?>
+			</div>
 <?php endif; ?>
 	</div>	
 <div class="clearer"></div>		
 
 <!-- FOOTER -->
 
-<footer class="footer_main borda">
+<footer class="footer_main">
 	<?php if ($this->countModules('footer')) : ?>
-		<div class="footer borda">
+		<div class="footer">
 			<jdoc:include type="modules" name="footer" style="xhtml" />
 	<?php endif; ?>
 		</div>	
