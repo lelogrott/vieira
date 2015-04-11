@@ -53,7 +53,7 @@ $style = "
 #je_accord".$module->id.".je_acc ul ul li.active > a::after,
 #je_accord".$module->id.".je_acc ul ul li.open > a::after,
 #je_accord".$module->id.".je_acc ul ul li > a:hover::after { border-color: ".$menulinkcolorsub.";}
-"; 
+";
 $doc->addStyleDeclaration( $style );
 if ($params->get('jQuery')) {$doc->addScript ('http://code.jquery.com/jquery-latest.pack.js');}
 $doc = JFactory::getDocument();

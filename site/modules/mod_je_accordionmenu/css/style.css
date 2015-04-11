@@ -15,7 +15,9 @@
   margin-left: -4%;
 }
 .je_acc { width: 100%; }
-.je_acc li { margin:0!important;}
+.je_acc li { margin:0!important;
+	color: black !important;
+}
 .je_acc ul ul {display: none; margin:0; padding:0;}
 .je_acc img { margin:0 10px 0 0; vertical-align:middle}
 .align-right { float: right;}

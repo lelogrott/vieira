@@ -82,8 +82,6 @@ else
 				<jdoc:include type="modules" name="img2" style="xhtml" />
 		<?php endif; ?>
 			</div>
-			
-		<div class="clearer"></div>
 
 		<?php if ($this->countModules('img3')) : ?>
 			<div class="imgThree borda">
@@ -95,8 +93,6 @@ else
 				<jdoc:include type="modules" name="img4" style="xhtml" />
 		<?php endif; ?>
 			</div>
-		
-		<div class="clearer"></div>
 		
 		<?php if ($this->countModules('img5')) : ?>
 			<div class="imgFive borda">
