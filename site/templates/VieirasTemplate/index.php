@@ -103,7 +103,7 @@ else
 			<div class="imgSix borda">
 				<jdoc:include type="modules" name="img6" style="xhtml" />
 		<?php endif; ?>
-			</div>
+	</div>
 <?php endif; ?>
 	</div>	
 <div class="clearer"></div>		
