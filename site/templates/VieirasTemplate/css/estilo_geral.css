@@ -112,7 +112,7 @@ body{
 	.imgTwo{
 		min-width: 20.77%;
 		min-height: 30%;
-		margin-left:73.66%;
+		margin-left:93.66%;
 		margin-top:6.9%;
 		margin-right: 6.23%;
 	}
@@ -129,7 +129,7 @@ body{
 	.imgFour{
 		min-width: 27.30%;
 		min-height: 23.5%;
-		margin-left:67.12%;
+		margin-left:87.12%;
 		margin-right:6.23%;
 		margin-top:3.76%;
 	}
@@ -146,7 +146,7 @@ body{
 	.imgSix{
 		min-width:27.30%;
 		min-height:26%;
-		margin-left:67.12%;
+		margin-left:87.12%;
 		margin-right:6.23%;
 		margin-top:3.76%;
 	}
@@ -168,3 +168,6 @@ body{
 		height:10%;
 	}
 /**** Modulos de footer ***/
+li#item-101{
+	background-image: url("programacao.png") !important;
+}
