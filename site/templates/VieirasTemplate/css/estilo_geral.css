@@ -1,18 +1,15 @@
 /**** Fonte  *****/
-
-@import url(http://fonts.googleapis.com/css?family=Ubuntu:300,400,300italic,400italic);
-@import url(http://fonts.googleapis.com/css?family=Radley:400,400italic);
-@import url(http://fonts.googleapis.com/css?family=Alegreya+Sans:400,500italic);
-@import url(http://fonts.googleapis.com/css?family=Marvel:400,400italic);
-
+@font-face{
+	font-family: Helvetica;
+	src: url(fonte/HelveticaCdLt.ttf); 
+}
 a,p,h1,h2,h3,h4,h5,h6,spam,body,div,ul,li,tr,td{
-font-family: 'Ubuntu', sans-serif;
+font-family: 'Helvetica', sans-serif;
 }
 
 a{
 	color:#808080;
 	text-decoration:none;
-	font-weight:bold;
 }
 
 a:hover{
@@ -49,15 +46,16 @@ body{
 	.main_left{
 		float: left;
 		height:auto;
-		min-height:90%;
+		min-height:100%;
 		width: 37%;
 		/***border-color:black!important;
 		border-right-style: solid !important;***/ 
         background-image:url("barra.png");
         background-repeat: no-repeat;
         background-position: right center;
-        background-size: auto 100%;
+        background-size: auto 97%;
         position: relative;
+        margin-top: -0.5%;
 	}
 	/*** static main_header class ***/
 	.left_header{
@@ -87,7 +85,7 @@ body{
 	.modcorpo{
 		float:auto;
 		margin-left: 37%;
-		min-height: 90%;  
+		min-height: 97%;  
 		position: absolute;
 		width:50%;
 	}
@@ -101,8 +99,8 @@ body{
 	}
 	.imgOne{
 		float:left;
-		min-height: 30%;
-		min-width: 34.6%;
+		height: 30%;
+		width: 34.6%;
 		margin-top:6.9%;
 		margin-left:5.4%;
 		margin-right:30%;
@@ -110,8 +108,8 @@ body{
 	}
 	
 	.imgTwo{
-		min-width: 20.77%;
-		min-height: 30%;
+		width: 20.77%;
+		height: 30%;
 		margin-left:93.66%;
 		margin-top:6.9%;
 		margin-right: 6.23%;
@@ -119,16 +117,16 @@ body{
 	
 	.imgThree{
 		float:left;
-		min-width:28%;
-		min-height:32%;
+		width:28%;
+		height:32%;
 		margin-left:5.4%;
 		margin-right:36.43%;
 		margin-top:3.76%;
 	}
 	
 	.imgFour{
-		min-width: 27.30%;
-		min-height: 23.5%;
+		width: 27.30%;
+		height: 23.5%;
 		margin-left:87.12%;
 		margin-right:6.23%;
 		margin-top:3.76%;
@@ -136,16 +134,16 @@ body{
 	
 	.imgFive{
 		float:left;
-		min-width:28%;
-		min-height:18.47%;
+		width:28%;
+		height:18.47%;
 		margin-left:5.4%;
 		margin-right:36.43%;
 		margin-top:3.76%;
 	}
 	
 	.imgSix{
-		min-width:27.30%;
-		min-height:26%;
+		width:27.30%;
+		height:26%;
 		margin-left:87.12%;
 		margin-right:6.23%;
 		margin-top:3.76%;
@@ -168,6 +166,9 @@ body{
 		height:10%;
 	}
 /**** Modulos de footer ***/
-li#item-101{
+#item-101{
 	background-image: url("programacao.png") !important;
+	background-position: absolute;
+	background-size: 100%;
+	background-repeat: no-repeat;
 }

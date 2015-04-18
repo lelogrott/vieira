@@ -44,7 +44,7 @@ ul.yj-vertical-menu li{
 }
 
 ul.yj-vertical-menu li:hover{
-	background:none;
+	/*background:none;*/
 }
 /* li ul's */
 ul.yj-vertical-menu li ul {
@@ -64,8 +64,8 @@ ul.yj-vertical-menu ul {
 }
 /* a elements */
 ul.yj-vertical-menu li a {
-	height:32px;
-	line-height:32px;
+	height:100%;
+	line-height:350%;
 	text-indent:15px;
 	background:#fff;
 	border-bottom: 1px solid #D4D4D4;
@@ -83,6 +83,7 @@ ul.yj-vertical-menu li a:focus{
 	background: #f5f5f5!important;
 	color: #121212!important;
 }
+
 /* has childs */
 li.yj-vertical-menu-has-horizontal > a:after {
 	content: "";
@@ -114,6 +115,6 @@ ul.yj-vertical-menu.flyoutleft li.yj-vertical-menu-has-horizontal > a:after {
 	font-size: 0.1em;
 	line-height: 0;
 }
-li#item-101{
+li.#item-102{
 	background-image: url("programacao.png") !important;
 }
