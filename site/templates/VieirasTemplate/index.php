@@ -72,6 +72,8 @@ else
 <?php if ($this->countModules('corpo')) : ?>
 	<div class="modcorpo">
 		<jdoc:include type="modules" name="corpo" style="xhtml" />
+		<jdoc:include type="message" />
+		<jdoc:include type="component" />
 		<?php if ($this->countModules('img1')) : ?>
 			<div class="imgOne borda">
 				<jdoc:include type="modules" name="img1" style="xhtml" />

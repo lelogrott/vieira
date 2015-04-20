@@ -7,7 +7,7 @@ a,p,h1,h2,h3,h4,h5,h6,spam,body,div,ul,li,tr,td{
 font-family: 'Helvetica', sans-serif;
 }
 
-a{
+p{
 	color:#808080;
 	text-decoration:none;
 }
@@ -72,10 +72,7 @@ body{
 		padding-top:0%; padding-right:0%; padding-bottom:0px; padding-left:11.5%;
 		opacity:1;
 	}
-	.modmenu h3{
-		font-family: 'Marvel', sans-serif !important;
-		font-size: 14px;
-	}
+	
 	/*** Modulo menu ***/
 
 /**** Modulos do cabecalho ***/
@@ -88,14 +85,23 @@ body{
 		min-height: 97%;  
 		position: absolute;
 		width:50%;
+		text-align: justify;
 	}
-	.corpo h2{
-			color:#CC0000;
-			font-weight:normal;
+	.modcorpo h2{
+			color:#990000;
+			font-weight:bold;
 			font-size:24pt;
 			padding-bottom:5px;
 			padding-top:10px;
 			margin-bottom:10px;
+			font-family: 'Helvetica' !important;
+			padding-left: 10%;
+			text-align: center;
+	}
+	.modcorpo p{
+		font-family: 'Helvetica', sans-serif !important;
+		color: #990000 !important;
+		padding-left: 10%;
 	}
 	.imgOne{
 		float:left;

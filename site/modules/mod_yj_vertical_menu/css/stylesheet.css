@@ -99,6 +99,9 @@ ul.yj-vertical-menu li a {
 	background-size: 13%;
 	padding-left: 15% !important;
 }
+#item-105 a {
+	color: rgb(230,230,230) !important;
+}
 /* hover and actives */
 ul.yj-vertical-menu li a.isactivea,
 ul.yj-vertical-menu li a:hover,
